@@ -1,15 +1,20 @@
 {
-  "name": "mamarosies",
+  "name": "cakeandsweets",
   "version": "1.0.0",
-  "description": "Cake and sweets",
+  "description": "Mamarosies cake and sweets website",
   "main": "index.js",
-  "dependencies": {
-    "gh-pages": "^3.0.0"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d DIR"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
   },
   "author": "Carlston G",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://carlstong.github.io/Cakeandsweets",
+  "keywords": [],
+  "dependencies": {
+    "gh-pages": "^3.0.0"
+  }
 }
